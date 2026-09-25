@@ -13,6 +13,8 @@ function App() {
     [cart],
   );
 
+  const destroyitem =cart  (cart)
+
   function handlerClick(item) {
     const guitarExists = cart.findIndex((guitar) => guitar.id === item.id);
 
